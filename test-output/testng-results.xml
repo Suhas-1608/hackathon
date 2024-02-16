@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="9" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-15T15:45:17 IST" name="Suite" finished-at="2024-02-15T15:51:25 IST" duration-ms="367880">
+    <groups>
+    </groups>
+    <test started-at="2024-02-15T15:45:17 IST" name="Test" finished-at="2024-02-15T15:51:25 IST" duration-ms="367880">
+      <class name="testCase.TC_001_SearchingCardiologiests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC_001_SearchingCardiologiests@3fc2959f]" started-at="2024-02-15T15:45:17 IST" name="setup" finished-at="2024-02-15T15:46:01 IST" duration-ms="43141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SearchingCardiologiests()[pri:1, instance:testCase.TC_001_SearchingCardiologiests@3fc2959f]" started-at="2024-02-15T15:46:01 IST" name="SearchingCardiologiests" finished-at="2024-02-15T15:46:11 IST" duration-ms="10676" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[An exception occurred in Searching Cardiologiests test: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@data-qa-id='omni-suggestion-city'])[1]"}
+  (Session info: MicrosoftEdge=121.0.2277.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [daeae356cc04995c83df74313d12e1e7, findElement {using=xpath, value=(//div[@data-qa-id='omni-suggestion-city'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61084}, msedge: {msedgedriverVersion: 121.0.2277.112 (c44bb51ada3..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61084/devtoo..., se:cdpVersion: 121.0.2277.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: daeae356cc04995c83df74313d12e1e7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: An exception occurred in Searching Cardiologiests test: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@data-qa-id='omni-suggestion-city'])[1]"}
+  (Session info: MicrosoftEdge=121.0.2277.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [daeae356cc04995c83df74313d12e1e7, findElement {using=xpath, value=(//div[@data-qa-id='omni-suggestion-city'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61084}, msedge: {msedgedriverVersion: 121.0.2277.112 (c44bb51ada3..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61084/devtoo..., se:cdpVersion: 121.0.2277.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: daeae356cc04995c83df74313d12e1e7
+at org.testng.Assert.fail(Assert.java:111)
+at testCase.TC_001_SearchingCardiologiests.SearchingCardiologiests(TC_001_SearchingCardiologiests.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchingCardiologiests -->
+        <test-method signature="gettingCardiologiests()[pri:0, instance:testCase.TC_001_SearchingCardiologiests@3fc2959f]" started-at="2024-02-15T15:46:12 IST" name="gettingCardiologiests" finished-at="2024-02-15T15:46:12 IST" depends-on-methods="testCase.TC_001_SearchingCardiologiests.SearchingCardiologiests" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testCase.TC_001_SearchingCardiologiests.gettingCardiologiests() on instance testCase.TC_001_SearchingCardiologiests@3fc2959f depends on not successfully finished methods 
+[testCase.TC_001_SearchingCardiologiests.SearchingCardiologiests() on instance testCase.TC_001_SearchingCardiologiests@3fc2959f]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testCase.TC_001_SearchingCardiologiests.gettingCardiologiests() on instance testCase.TC_001_SearchingCardiologiests@3fc2959f depends on not successfully finished methods 
+[testCase.TC_001_SearchingCardiologiests.SearchingCardiologiests() on instance testCase.TC_001_SearchingCardiologiests@3fc2959f]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingCardiologiests -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCase.TC_001_SearchingCardiologiests@3fc2959f]" started-at="2024-02-15T15:46:12 IST" name="teardown" finished-at="2024-02-15T15:46:14 IST" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCase.TC_001_SearchingCardiologiests -->
+      <class name="testCase.TC_004_CorporateHealthAndWellness_ValidDetails">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC_004_CorporateHealthAndWellness_ValidDetails@6743e411]" started-at="2024-02-15T15:49:23 IST" name="setup" finished-at="2024-02-15T15:50:02 IST" duration-ms="39708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkingValidDetails()[pri:11, instance:testCase.TC_004_CorporateHealthAndWellness_ValidDetails@6743e411]" started-at="2024-02-15T15:50:02 IST" name="checkingValidDetails" finished-at="2024-02-15T15:51:23 IST" duration-ms="80817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingValidDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCase.TC_004_CorporateHealthAndWellness_ValidDetails@6743e411]" started-at="2024-02-15T15:51:23 IST" name="teardown" finished-at="2024-02-15T15:51:25 IST" duration-ms="1297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCase.TC_004_CorporateHealthAndWellness_ValidDetails -->
+      <class name="testCase.TC_002_CaptureSurgeries">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC_002_CaptureSurgeries@31190526]" started-at="2024-02-15T15:46:14 IST" name="setup" finished-at="2024-02-15T15:46:53 IST" duration-ms="39070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CapturePopularSurgeries()[pri:3, instance:testCase.TC_002_CaptureSurgeries@31190526]" started-at="2024-02-15T15:46:53 IST" name="CapturePopularSurgeries" finished-at="2024-02-15T15:47:08 IST" duration-ms="15773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CapturePopularSurgeries -->
+        <test-method signature="GeneralSurgeries()[pri:4, instance:testCase.TC_002_CaptureSurgeries@31190526]" started-at="2024-02-15T15:47:09 IST" name="GeneralSurgeries" finished-at="2024-02-15T15:47:13 IST" duration-ms="4458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GeneralSurgeries -->
+        <test-method signature="ProctologySurgeries()[pri:5, instance:testCase.TC_002_CaptureSurgeries@31190526]" started-at="2024-02-15T15:47:14 IST" name="ProctologySurgeries" finished-at="2024-02-15T15:47:17 IST" duration-ms="2970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProctologySurgeries -->
+        <test-method signature="OphthamologySurgeries()[pri:6, instance:testCase.TC_002_CaptureSurgeries@31190526]" started-at="2024-02-15T15:47:17 IST" name="OphthamologySurgeries" finished-at="2024-02-15T15:47:20 IST" duration-ms="3117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OphthamologySurgeries -->
+        <test-method signature="UrologySurgeries()[pri:7, instance:testCase.TC_002_CaptureSurgeries@31190526]" started-at="2024-02-15T15:47:21 IST" name="UrologySurgeries" finished-at="2024-02-15T15:47:28 IST" duration-ms="7006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UrologySurgeries -->
+        <test-method signature="CosmeticSurgeries()[pri:8, instance:testCase.TC_002_CaptureSurgeries@31190526]" started-at="2024-02-15T15:47:29 IST" name="CosmeticSurgeries" finished-at="2024-02-15T15:47:33 IST" duration-ms="3714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CosmeticSurgeries -->
+        <test-method signature="OrthopedicsSurgeries()[pri:9, instance:testCase.TC_002_CaptureSurgeries@31190526]" started-at="2024-02-15T15:47:33 IST" name="OrthopedicsSurgeries" finished-at="2024-02-15T15:47:38 IST" duration-ms="4461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrthopedicsSurgeries -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCase.TC_002_CaptureSurgeries@31190526]" started-at="2024-02-15T15:47:38 IST" name="teardown" finished-at="2024-02-15T15:47:40 IST" duration-ms="1438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCase.TC_002_CaptureSurgeries -->
+      <class name="testCase.TC_003_CorporateHealthAndWellness_InvalidDetails">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC_003_CorporateHealthAndWellness_InvalidDetails@662ac478]" started-at="2024-02-15T15:47:40 IST" name="setup" finished-at="2024-02-15T15:48:20 IST" duration-ms="40058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkingInvalidDetails()[pri:10, instance:testCase.TC_003_CorporateHealthAndWellness_InvalidDetails@662ac478]" started-at="2024-02-15T15:48:20 IST" name="checkingInvalidDetails" finished-at="2024-02-15T15:49:21 IST" duration-ms="61392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingInvalidDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCase.TC_003_CorporateHealthAndWellness_InvalidDetails@662ac478]" started-at="2024-02-15T15:49:21 IST" name="teardown" finished-at="2024-02-15T15:49:23 IST" duration-ms="1226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCase.TC_003_CorporateHealthAndWellness_InvalidDetails -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
